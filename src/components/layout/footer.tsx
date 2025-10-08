@@ -39,14 +39,17 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <a href="#" className="group mb-6 flex items-center">
+            <a href="#" className="group mb-6 flex items-center gap-3">
               <Image
-                src="/logo.webp"
+                src="/logo-white.svg"
                 alt={`${companyInfo.name} Logo`}
-                width={120}
+                width={40}
                 height={40}
-                className="h-10 w-auto transition-transform group-hover:scale-105"
+                className="h-10 w-10 transition-transform group-hover:scale-105"
               />
+              <span className="text-2xl font-bold text-white transition-colors group-hover:text-cyan-400">
+                {companyInfo.name.toUpperCase()}
+              </span>
             </a>
             <p className="mb-6 max-w-md leading-relaxed text-slate-400">
               <strong className="text-white">{companyInfo.name}</strong> -{" "}
