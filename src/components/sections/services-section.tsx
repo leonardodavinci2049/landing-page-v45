@@ -170,34 +170,7 @@ export default function ServicesSection() {
         },
       ],
     },
-    {
-      category: "Serviços Técnico de Informática",
-      icon: Wrench,
-      color: "from-yellow-500 to-amber-600",
-      items: [
-        {
-          title: "Montagem e Consertos",
-          description:
-            "Montagem e consertos de computadores com diagnóstico assistido por IA para identificação rápida de problemas.",
-          features: ["Montagem", "Consertos", "Diagnóstico IA"],
-          aiFeature: true,
-        },
-        {
-          title: "Redes e Infraestrutura",
-          description:
-            "Instalação e configuração de redes com otimização inteligente e monitoramento por IA.",
-          features: ["Instalação", "Configuração", "Monitoramento IA"],
-          aiFeature: true,
-        },
-        {
-          title: "Software e Sistemas",
-          description:
-            "Instalação e configuração de software com suporte de IA para resolução rápida de problemas.",
-          features: ["Instalação", "Configuração", "Suporte IA"],
-          aiFeature: true,
-        },
-      ],
-    },
+
   ];
 
   return (

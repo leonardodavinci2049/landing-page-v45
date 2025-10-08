@@ -116,14 +116,17 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <a href="#" className="group flex items-center">
+          <a href="#" className="group flex items-center gap-3">
             <Image
-              src="/logo.webp"
-              alt="ComSuporte Logo"
-              width={120}
+              src="/logo-white.svg"
+              alt={`${companyInfo.name} Logo`}
+              width={40}
               height={40}
-              className="h-10 w-auto transition-transform group-hover:scale-105"
+              className="h-10 w-10 transition-transform group-hover:scale-105"
             />
+            <span className="text-3xl font-bold text-white transition-colors group-hover:text-cyan-400">
+              {companyInfo.name.toUpperCase()}
+            </span>
           </a>
 
           {/* Desktop Navigation */}
