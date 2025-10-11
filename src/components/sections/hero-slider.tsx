@@ -154,8 +154,20 @@ export default function HeroSlider() {
 
   return (
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 pt-20">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+      {/* Background Pattern - Dots with Depth Effect */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#ffffff08_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#ffffff12_1px,transparent_1px)] bg-[size:48px_48px] animate-pulse"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#06b6d410_2px,transparent_2px)] bg-[size:96px_96px]"></div>
+      </div>
+
+      {/* Animated Particles */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 left-1/4 h-2 w-2 rounded-full bg-cyan-400/40 animate-ping"></div>
+        <div className="absolute top-3/4 right-1/4 h-2 w-2 rounded-full bg-purple-400/40 animate-ping animation-delay-2000"></div>
+        <div className="absolute bottom-1/3 left-1/3 h-2 w-2 rounded-full bg-pink-400/40 animate-ping animation-delay-4000"></div>
+        <div className="absolute top-1/2 right-1/3 h-2 w-2 rounded-full bg-blue-400/40 animate-ping animation-delay-1000"></div>
+      </div>
 
       {/* Gradient Orbs */}
       <div className="animate-blob absolute top-0 -left-4 h-72 w-72 rounded-full bg-purple-500 opacity-20 mix-blend-multiply blur-xl filter"></div>
