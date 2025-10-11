@@ -9,14 +9,14 @@ import Link from "next/link";
 export default function FAQSection() {
   const faqs = [
     {
-      question: "Qual o prazo de entrega de uma landing page?",
+      question: "Quanto tempo leva para ter minha estrutura de afiliado pronta?",
       answer:
-        "O prazo varia conforme a complexidade do projeto, mas geralmente entregamos landing pages otimizadas em 2 a 3 semanas. Após a análise detalhada do seu projeto, forneceremos um cronograma específico com marcos de entrega bem definidos.",
+        "O tempo de entrega da sua estrutura de afiliado (landing pages, funis, ferramentas) varia conforme a complexidade e personalização do projeto. Após uma análise detalhada das suas necessidades, forneceremos um cronograma específico com prazos e etapas claras.",
     },
     {
-      question: "Vocês oferecem suporte pós-lançamento?",
+      question: "O suporte técnico cobre minhas ferramentas de afiliado?",
       answer:
-        "Sim! Oferecemos diferentes pacotes de suporte e manutenção para garantir que sua aplicação continue performando no longo prazo. Isso inclui correção de bugs, atualizações de segurança, melhorias de performance e suporte técnico dedicado.",
+        "Sim! Nossos pacotes de suporte e manutenção são desenhados para garantir que suas ferramentas, landing pages e infraestrutura de afiliado continuem performando no longo prazo. Isso inclui correção de bugs, atualizações de segurança, melhorias de performance e suporte técnico dedicado para o seu negócio.",
     },
     {
       question: "Como funciona o processo de pagamento?",
@@ -34,9 +34,9 @@ export default function FAQSection() {
         "Atualmente nosso foco é desenvolvimento web com React e Next.js. No entanto, podemos desenvolver Progressive Web Apps (PWA) que funcionam perfeitamente em dispositivos móveis, oferecendo experiência similar a apps nativos com a vantagem de não precisar de instalação.",
     },
     {
-      question: "O código-fonte fica com o cliente?",
+      question: "Serei o proprietário das ferramentas e códigos desenvolvidos?",
       answer:
-        "Sim! Após a conclusão e pagamento integral do projeto, todo o código-fonte desenvolvido é de propriedade do cliente. Fornecemos também documentação completa e, se necessário, treinamento para sua equipe técnica.",
+        "Sim! Após a conclusão e pagamento integral do projeto, todas as ferramentas, códigos e infraestrutura desenvolvidos são de sua propriedade. Fornecemos também documentação completa e, se necessário, treinamento para que você tenha total controle sobre sua operação de afiliado.",
     },
     {
       question: "Vocês trabalham com projetos internacionais?",
@@ -67,10 +67,10 @@ export default function FAQSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              Perguntas Frequentes
+              Perguntas Frequentes para Afiliados
             </h2>
             <p className="text-xl text-slate-700 dark:text-slate-400">
-              Tire suas dúvidas sobre nossos serviços e processo de trabalho
+              Tire suas dúvidas sobre como podemos impulsionar seu negócio de marketing de afiliados com nossas soluções.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>

@@ -4,47 +4,47 @@ import { Star, Quote } from "lucide-react";
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Carlos Silva",
-      role: "CEO",
-      company: "TechCommerce Brasil",
+      name: "Lucas Mendes",
+      role: "Afiliado Master",
+      company: "Afiliados Pro",
       content:
-        "A plataforma e-commerce desenvolvida superou todas as nossas expectativas. O aumento de 150% nas vendas no primeiro trimestre comprova a qualidade do trabalho. Profissionalismo e expertise técnica de alto nível.",
+        "A estrutura de servidores e as landing pages otimizadas que a CSTHost desenvolveu para mim foram um divisor de águas. Minhas campanhas de tráfego pago nunca performaram tão bem! O ROI aumentou significativamente.",
       rating: 5,
       image: "/api/placeholder/100/100",
     },
     {
-      name: "Maria Oliveira",
-      role: "Diretora de Marketing",
-      company: "Varejo Plus",
+      name: "Fernanda Lima",
+      role: "Estrategista Digital",
+      company: "Marketing de Resultados",
       content:
-        "O sistema PDV transformou completamente nossa operação. A interface intuitiva facilitou o treinamento da equipe e a integração com nosso ERP foi perfeita. Recomendo fortemente!",
+        "As ferramentas de automação e os bots inteligentes que a CSTHost implementou otimizaram meu tempo e melhoraram a interação com meus leads. Agora consigo focar mais na estratégia e menos na operação.",
       rating: 5,
       image: "/api/placeholder/100/100",
     },
     {
-      name: "João Santos",
-      role: "Fundador",
-      company: "StartupTech",
+      name: "Ricardo Almeida",
+      role: "Produtor Digital",
+      company: "Infoprodutos Pro",
       content:
-        "Precisávamos de uma landing page que convertesse e o resultado foi excepcional. A taxa de conversão de 85% fala por si. A atenção aos detalhes e o conhecimento em UX fizeram toda a diferença.",
+        "A CSTHost me ajudou a criar um funil de vendas completo e otimizado para meus infoprodutos. A integração com as plataformas de afiliados foi impecável e o suporte técnico é sempre ágil e eficiente.",
       rating: 5,
       image: "/api/placeholder/100/100",
     },
     {
-      name: "Ana Costa",
-      role: "Gerente de TI",
-      company: "Indústria Digital",
+      name: "Mariana Guedes",
+      role: "Afiliada de Conteúdo",
+      company: "Blog do Afiliado",
       content:
-        "A automação de processos com N8N economizou inúmeras horas de trabalho manual. A implementação foi rápida e o suporte contínuo garante que tudo funcione perfeitamente. Excelente investimento!",
+        "Minha hospedagem sempre foi um problema, mas a infraestrutura da CSTHost resolveu tudo. Meu blog está mais rápido e seguro, o que impactou diretamente no meu SEO e nas minhas vendas como afiliada.",
       rating: 5,
       image: "/api/placeholder/100/100",
     },
     {
-      name: "Pedro Almeida",
-      role: "Diretor Comercial",
-      company: "Atacado Online",
+      name: "Gustavo Pereira",
+      role: "Gestor de Tráfego",
+      company: "Performance Digital",
       content:
-        "O sistema B2B desenvolvido atende perfeitamente nossas necessidades complexas de precificação e pedidos em lote. A arquitetura escalável permite nosso crescimento sem preocupações técnicas.",
+        "As ferramentas de análise e rastreamento da CSTHost são essenciais para minhas campanhas de tráfego pago. Consigo otimizar meus investimentos e ter um controle muito mais preciso sobre o ROI de cada ação.",
       rating: 5,
       image: "/api/placeholder/100/100",
     },
@@ -66,12 +66,10 @@ export default function TestimonialsSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              O que Nossos Clientes Dizem
+              O que Nossos Afiliados Parceiros Dizem
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-700 dark:text-slate-400">
-              A satisfação dos nossos clientes é a nossa maior recompensa. Veja
-              alguns depoimentos de quem já transformou suas ideias em realidade
-              conosco.
+              A satisfação dos nossos parceiros afiliados é a nossa maior recompensa. Veja alguns depoimentos de quem já impulsionou seus resultados no marketing de afiliados conosco.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>

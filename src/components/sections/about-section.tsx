@@ -35,7 +35,7 @@ export default function AboutSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              Sua Parceria Estratégica em Desenvolvimento Web
+              Sua Parceria Estratégica para o Sucesso no Marketing de Afiliados
             </h2>
             <div className="mx-auto mb-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>
@@ -45,22 +45,21 @@ export default function AboutSection() {
             {/* Left Column - Text */}
             <div>
               <p className="mb-6 text-lg leading-relaxed text-slate-800 dark:text-slate-300">
-                Com anos de experiência em desenvolvimento Full-Stack, sou
-                especialista em criar
+                Com anos de experiência, somos especialistas em criar
                 <strong className="text-slate-900 dark:text-slate-100">
                   {" "}
-                  aplicações web robustas e escaláveis
+                  ferramentas e infraestrutura digital robusta e escalável
                 </strong>{" "}
-                utilizando as tecnologias mais modernas do mercado, como React,
+                para profissionais de marketing de afiliados, utilizando as tecnologias mais modernas do mercado, como React,
                 Next.js e TypeScript.
               </p>
               <p className="mb-8 text-lg leading-relaxed text-slate-800 dark:text-slate-300">
-                Meu foco é entregar soluções que não apenas atendam, mas{" "}
+                Nosso foco é entregar soluções que não apenas atendam, mas{" "}
                 <strong className="text-slate-900 dark:text-slate-100">
-                  superem as expectativas do seu negócio
+                  superem as expectativas do seu negócio de afiliado
                 </strong>
                 , garantindo performance, segurança e uma experiência de usuário
-                impecável.
+                impecável para seus clientes.
               </p>
 
               {/* Key Points */}
