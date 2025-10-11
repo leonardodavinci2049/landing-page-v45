@@ -38,9 +38,9 @@ export default function HeroSlider() {
     {
       icon: Code2,
       badge: `${companyInfo.name} - ${companyInfo.title}`,
-      headline: "Transforme Sua Visão Digital em Realidade",
-      subheadline: `Soluções Web Full-Stack com React & Next.js pela ${companyInfo.name}`,
-      description: `Desenvolvimento de ponta para empresas que buscam performance, escalabilidade e inovação. A ${companyInfo.name} oferece serviços completos de TI e desenvolvimento web.`,
+      headline: "Impulsione Seu Marketing de Afiliados com Tecnologia de Ponta",
+      subheadline: `Soluções Web e de Infraestrutura para Afiliados pela ${companyInfo.name}`,
+      description: `Desenvolvimento de ponta para afiliados que buscam performance, escalabilidade e inovação. A ${companyInfo.name} oferece serviços completos de TI e desenvolvimento web focados no sucesso do seu negócio de afiliado.`,
       techs: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js"],
       cta1: "Solicite um Orçamento Grátis",
       cta2: "Conheça Nossos Serviços",

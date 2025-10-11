@@ -13,67 +13,67 @@ import Link from "next/link";
 export default function PricingSection() {
   const plans = [
     {
-      name: "Contrato Mensal",
+      name: "Parceria Mensal para Afiliados",
       icon: Sparkles,
       description:
-        "Execução de projetos, assessorias, implementação e manutenção contínua",
+        "Suporte contínuo para sua estrutura de marketing de afiliados, com desenvolvimento, otimização e manutenção.",
       highlight: false,
       features: [
-        "Execução de projetos sob demanda",
-        "Assessoria técnica especializada",
-        "Implementação de sistemas",
-        "Manutenção de estruturas de TI",
-        "Suporte técnico contínuo",
-        "Atualizações e melhorias mensais",
-        "Relatórios mensais de atividades",
+        "Desenvolvimento de ferramentas sob demanda",
+        "Assessoria estratégica para campanhas",
+        "Implementação de automações",
+        "Manutenção de servidores e landing pages",
+        "Suporte técnico prioritário",
+        "Otimizações e melhorias contínuas",
+        "Relatórios de performance mensais",
       ],
-      cta: "Contratar Mensalmente",
+      cta: "Tornar-se Parceiro Mensal",
       color: "from-slate-600 to-slate-700",
     },
     {
-      name: "Horas/Consultoria",
+      name: "Consultoria Estratégica por Hora",
       icon: Clock,
-      description: "Flexibilidade para demandas pontuais",
+      description: "Flexibilidade para otimizar suas campanhas e ferramentas de afiliado em demandas pontuais.",
       highlight: true,
       badge: "Mais Flexível",
       features: [
-        "Pagamento por hora trabalhada",
-        "Sem compromisso de longo prazo",
-        "Ideal para manutenção e suporte",
-        "Consultoria técnica especializada",
+        "Consultoria especializada em marketing de afiliados",
+        "Otimização de landing pages e funis",
+        "Suporte técnico para ferramentas de afiliado",
+        "Análise de performance e métricas",
         "Prioridade no atendimento",
-        "Relatórios de horas trabalhadas",
-        "Faturamento mensal",
+        "Relatórios detalhados por hora",
+        "Faturamento flexível",
       ],
-      cta: "Contratar Horas",
+      cta: "Agendar Consultoria",
       color: "from-cyan-500 to-blue-600",
     },
     {
-      name: "Pacote Personalizado",
+      name: "Solução Customizada para Afiliados",
       icon: Zap,
-      description: "Soluções sob medida para necessidades complexas",
+      description: "Soluções sob medida para as necessidades mais complexas do seu negócio de afiliado.",
       highlight: false,
       features: [
-        "Análise detalhada das necessidades",
-        "Proposta customizada",
-        "Desenvolvimento + Hospedagem",
-        "Automação de processos",
-        "Suporte contínuo dedicado",
-        "SLA personalizado",
-        "Escalabilidade garantida",
+        "Análise aprofundada da sua operação de afiliado",
+        "Proposta customizada de ferramentas e infraestrutura",
+        "Desenvolvimento de sistemas e hospedagem otimizada",
+        "Automação avançada de marketing",
+        "Suporte contínuo e dedicado",
+        "SLA personalizado para alta disponibilidade",
+        "Escalabilidade garantida para crescimento",
       ],
-      cta: "Falar com Especialista",
+      cta: "Falar com Especialista em Afiliados",
       color: "from-purple-600 to-pink-600",
     },
   ];
 
   const addons = [
-    "Hospedagem e Infraestrutura (VPS)",
-    "Manutenção e Suporte Mensal",
-    "Implementação de Analytics",
-    "Otimização de Performance",
-    "Integração com APIs Externas",
-    "Treinamento Adicional",
+    "Hospedagem e Infraestrutura Otimizada para Afiliados (VPS)",
+    "Manutenção e Suporte Mensal para Ferramentas de Afiliados",
+    "Implementação de Analytics Avançado para Campanhas",
+    "Otimização de Performance de Landing Pages",
+    "Integração com APIs de Marketplaces de Afiliados",
+    "Treinamento em Ferramentas de Marketing Digital",
   ];
 
   return (
@@ -83,12 +83,10 @@ export default function PricingSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              Planos Flexíveis para o Seu Projeto
+              Planos Flexíveis para o Seu Negócio de Marketing de Afiliados
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-700 dark:text-slate-400">
-              Entendemos que cada projeto tem um orçamento e necessidades
-              específicas. Oferecemos modelos de contratação flexíveis para se
-              adequar à sua demanda.
+              Entendemos que cada negócio de marketing de afiliados tem um orçamento e necessidades específicas. Oferecemos modelos de contratação flexíveis para se adequar à sua demanda e impulsionar seus resultados.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>

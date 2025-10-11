@@ -58,12 +58,10 @@ export default function TechStackSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-              Nossa Stack Tecnológica
+              Nossa Stack Tecnológica para o Marketing de Afiliados
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-300">
-              Trabalhamos com as tecnologias mais avançadas e eficientes do
-              mercado para garantir que sua aplicação seja robusta, escalável e
-              preparada para o futuro.
+              Trabalhamos com as tecnologias mais avançadas e eficientes do mercado para garantir que suas ferramentas e infraestrutura de marketing de afiliados sejam robustas, escaláveis e preparadas para o futuro.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>

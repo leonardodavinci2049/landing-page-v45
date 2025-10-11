@@ -23,31 +23,31 @@ import Link from "next/link";
 export default function ServicesSection() {
   const services = [
     {
-      category: "Desenvolvimento Web",
+      category: "Desenvolvimento Web para Afiliados",
       icon: Globe,
       color: "from-cyan-500 to-blue-600",
       items: [
         {
-          title: "Sites Institucionais",
+          title: "Páginas de Venda de Alta Conversão",
           description:
-            "Presença online otimizada para SEO e performance, com design responsivo e moderno.",
-          features: ["SEO Otimizado", "Design Responsivo", "CMS Integrado"],
+            "Desenvolvemos páginas de venda otimizadas para afiliados, com foco em SEO, performance e design responsivo para maximizar suas conversões.",
+          features: ["SEO Otimizado", "Design Responsivo", "Foco em Conversão"],
           aiFeature: false,
         },
         {
-          title: "Sistemas PDV",
+          title: "Ferramentas de Suporte ao Afiliado",
           description:
-            "Soluções online para varejo com integração de estoque, pagamentos e dashboard completo.",
-          features: ["Gestão de Estoque", "Pagamentos", "Dashboard Admin"],
+            "Criação de sistemas e ferramentas personalizadas para gerenciar links, campanhas e dados de produtos, facilitando suas operações de marketing de afiliados.",
+          features: ["Gestão de Links", "Automação de Campanhas", "Dashboards Personalizados"],
           aiFeature: false,
         },
         {
-          title: "Painel Administrativo",
+          title: "Painéis de Controle para Produtos Digitais",
           description:
-            "Sistema completo de gestão de produtos, entrada, clientes e pedidos com IA para análise preditiva.",
+            "Sistemas completos para gestão de produtos digitais, afiliados e comissionamento, com IA para análise preditiva e otimização de vendas.",
           features: [
             "Gestão de Produtos",
-            "Controle de Clientes",
+            "Controle de Afiliados",
             "Análise com IA",
           ],
           aiFeature: true,
@@ -55,116 +55,112 @@ export default function ServicesSection() {
       ],
     },
     {
-      category: "E-commerce",
+      category: "Plataformas de Venda para Afiliados",
       icon: ShoppingCart,
       color: "from-purple-500 to-pink-600",
       items: [
         {
-          title: "E-commerce B2B",
+          title: "Lojas Virtuais Otimizadas para Afiliados",
           description:
-            "Catálogos atacadistas com preços diferenciados e pedidos em lote, otimizados com IA.",
-          features: [
-            "Catálogo B2B",
-            "Preços Variáveis",
-            "IA para Precificação",
-          ],
+            "Criação de lojas online focadas em produtos de afiliados, com gestão completa e otimização para alta conversão.",
+          features: ["Gestão de Produtos", "Pagamentos Seguros", "Checkout Otimizado"],
+          aiFeature: false,
+        },
+        {
+          title: "Integração com Marketplaces de Afiliados",
+          description:
+            "Integramos sua plataforma com os principais marketplaces de afiliados, facilitando a gestão e a promoção dos seus produtos.",
+          features: ["Hotmart", "Monetizze", "Eduzz"],
+          aiFeature: false,
+        },
+        {
+          title: "Sistemas de Afiliados Customizados",
+          description:
+            "Desenvolvimento de sistemas de afiliados próprios, com controle total sobre comissões, rastreamento e performance.",
+          features: ["Comissionamento Flexível", "Rastreamento Avançado", "Relatórios Detalhados"],
           aiFeature: true,
-        },
-        {
-          title: "E-commerce B2C",
-          description:
-            "Lojas online para varejo com gestão completa de produtos e pagamentos.",
-          features: ["Gestão de Produtos", "Pagamentos", "Checkout Otimizado"],
-          aiFeature: false,
-        },
-        {
-          title: "WooCommerce",
-          description:
-            "Instalação e configuração profissional do WooCommerce com otimizações e integrações.",
-          features: ["Instalação", "Configuração", "Otimização"],
-          aiFeature: false,
         },
       ],
     },
     {
-      category: "Landing Pages",
+      category: "Landing Pages para Afiliados",
       icon: Sparkles,
       color: "from-orange-500 to-red-600",
       items: [
         {
-          title: "Landing Pages para Ads",
+          title: "Landing Pages de Alta Conversão para Afiliados",
           description:
-            "Páginas de alta conversão para Google Ads, Meta Ads e outras plataformas, criadas com IA.",
+            "Desenvolvemos landing pages focadas em alta conversão para suas campanhas de Google Ads, Meta Ads e outras plataformas, com textos persuasivos gerados por IA.",
           features: ["Google Ads", "Meta Ads", "Copy com IA"],
           aiFeature: true,
         },
         {
-          title: "Integração Social",
+          title: "Páginas de Captura de Leads Otimizadas",
           description:
-            "Landing pages com integração WhatsApp e redes sociais para máxima conversão.",
+            "Criação de páginas de captura de leads com integração de WhatsApp e redes sociais, essenciais para construir sua lista e nutrir seus potenciais clientes.",
           features: ["WhatsApp", "Redes Sociais", "Chat Integrado"],
           aiFeature: false,
         },
         {
-          title: "Marketing & Campanhas",
+          title: "Otimização de Campanhas com IA",
           description:
-            "Landing pages para ações de marketing com ChatGPT e Gemini para copywriting otimizado.",
+            "Landing pages com copywriting otimizado por ChatGPT e Gemini, e testes A/B automatizados para garantir o melhor desempenho das suas promoções de produtos de afiliados.",
           features: ["ChatGPT", "Gemini", "A/B Testing"],
           aiFeature: true,
         },
       ],
     },
     {
-      category: "Automação",
+      category: "Automação para Afiliados",
       icon: Workflow,
       color: "from-green-500 to-emerald-600",
       items: [
         {
-          title: "Workflows Inteligentes",
+          title: "Workflows de Marketing de Afiliados Inteligentes",
           description:
-            "Integração entre sistemas e automatização de tarefas com N8N e IA para otimização.",
+            "Integração entre suas ferramentas de marketing e automatização de tarefas repetitivas com N8N e IA, otimizando suas campanhas e economizando tempo.",
           features: ["N8N", "Integração", "IA Preditiva"],
           aiFeature: true,
         },
         {
-          title: "Bots Telegram",
+          title: "Bots para Atendimento e Suporte a Leads",
           description:
-            "Atendimento automatizado com IA e notificações em tempo real.",
+            "Criação de bots inteligentes para Telegram e outras plataformas, oferecendo atendimento automatizado e suporte em tempo real para seus leads e clientes, potencializando suas vendas.",
           features: ["Atendimento IA", "Notificações", "Integração"],
           aiFeature: true,
         },
         {
-          title: "Integração WhatsApp",
+          title: "Automação de Comunicação via WhatsApp",
           description:
-            "Automação de mensagens e atendimento via WhatsApp com respostas inteligentes por IA.",
+            "Automação de mensagens e atendimento via WhatsApp com respostas inteligentes por IA, para nutrir leads, enviar ofertas e manter um relacionamento próximo com seu público de afiliados.",
           features: ["WhatsApp API", "Respostas IA", "Chatbot"],
           aiFeature: true,
         },
       ],
     },
     {
-      category: "Hospedagem & Infraestrutura",
+      category: "Hospedagem & Infraestrutura para Afiliados",
       icon: Server,
       color: "from-blue-500 to-indigo-600",
       items: [
         {
-          title: "WordPress Gerenciado",
+          title: "Hospedagem Otimizada para Páginas de Venda",
           description:
-            "Configuração otimizada com backups automáticos e segurança avançada.",
-          features: ["Backups", "SSL", "Segurança"],
+            "Servidores de alta performance configurados para garantir velocidade e estabilidade para suas páginas de venda e funis de marketing, essenciais para não perder vendas.",
+          features: ["Velocidade", "Uptime", "Segurança"],
           aiFeature: false,
         },
         {
-          title: "Deploy de Aplicações",
+          title: "Infraestrutura Escalável para Campanhas",
           description:
-            "CI/CD para aplicações React/Next.js com monitoramento e IA para otimização de performance.",
-          features: ["CI/CD", "Monitoramento IA", "Performance"],
+            "Infraestrutura robusta e escalável para suportar picos de tráfego em suas campanhas de afiliados, com monitoramento inteligente e deploy automatizado.",
+          features: ["Escalabilidade", "Monitoramento IA", "Deploy Automatizado"],
           aiFeature: true,
         },
         {
-          title: "VPS Linux",
+          title: "VPS Linux Gerenciado para Ferramentas de Afiliados",
           description:
-            "Instalação e gerenciamento completo de VPS Linux com configurações otimizadas.",
+            "Instalação e gerenciamento completo de VPS Linux, otimizado para rodar suas ferramentas de marketing de afiliados, bots e sistemas customizados com máxima performance e segurança.",
           features: ["Instalação", "Gerenciamento", "Otimização"],
           aiFeature: false,
         },
@@ -180,16 +176,10 @@ export default function ServicesSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              Nossos Serviços
+              Serviços Exclusivos para Afiliados de Marketing de Afiliados
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-700 dark:text-slate-400">
-              Soluções completas para o seu negócio digital, desde o
-              desenvolvimento até a automação e hospedagem,
-              <span className="font-semibold text-cyan-600">
-                {" "}
-                potencializadas por Inteligência Artificial
-              </span>
-              .
+              Soluções completas e personalizadas para o seu negócio de marketing de afiliados, desde a infraestrutura de servidores e desenvolvimento de ferramentas até a automação e hospedagem, <span className="font-semibold text-cyan-600">potencializadas por Inteligência Artificial</span>, para impulsionar suas promoções e resultados.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>

@@ -6,46 +6,46 @@ export default function ProcessSection() {
     {
       number: "01",
       icon: Search,
-      title: "Descoberta e Planejamento",
+      title: "Análise e Estratégia para Afiliados",
       description:
-        "Entendemos suas necessidades, objetivos e público-alvo para traçar a melhor estratégia.",
+        "Compreendemos suas metas como afiliado, seu nicho e público para desenvolver uma estratégia tecnológica que impulsione seus resultados.",
       details: [
-        "Análise de requisitos",
-        "Definição de escopo",
-        "Planejamento de arquitetura",
+        "Análise de mercado de afiliados",
+        "Definição de ferramentas e infraestrutura",
+        "Planejamento de campanhas e promoções",
       ],
     },
     {
       number: "02",
       icon: Palette,
-      title: "Design e Prototipagem",
+      title: "Design de Ferramentas e Funis de Venda",
       description:
-        "Criamos wireframes e protótipos para visualizar a interface e a experiência do usuário.",
-      details: ["Wireframes", "Protótipos interativos", "Design system"],
+        "Criamos o design de suas ferramentas e funis de venda, focando na experiência do usuário e na conversão para seus produtos de afiliado.",
+      details: ["Wireframes", "Protótipos de funis", "Design de landing pages"],
     },
     {
       number: "03",
       icon: Code,
-      title: "Desenvolvimento Ágil",
+      title: "Desenvolvimento e Implementação Ágil",
       description:
-        "Construímos sua aplicação com as melhores práticas, utilizando metodologias ágeis.",
-      details: ["Sprints semanais", "Code review", "Entregas contínuas"],
+        "Construímos suas ferramentas e infraestrutura com as melhores práticas, utilizando metodologias ágeis para garantir rapidez e eficiência na sua operação de afiliado.",
+      details: ["Desenvolvimento de ferramentas", "Configuração de servidores", "Integração de APIs"],
     },
     {
       number: "04",
       icon: TestTube,
-      title: "Testes e Otimização",
+      title: "Testes, Otimização e Lançamento",
       description:
-        "Realizamos testes rigorosos para garantir performance, segurança e usabilidade.",
-      details: ["Testes automatizados", "Performance", "Segurança"],
+        "Realizamos testes rigorosos para garantir a performance, segurança e usabilidade de suas ferramentas e páginas, seguido do lançamento otimizado para suas campanhas.",
+      details: ["Testes de conversão", "Otimização de performance", "Lançamento de campanhas"],
     },
     {
       number: "05",
       icon: Rocket,
-      title: "Deploy e Suporte",
+      title: "Monitoramento e Suporte Contínuo",
       description:
-        "Lançamos sua solução e oferecemos suporte contínuo para garantir o sucesso.",
-      details: ["Deploy automatizado", "Monitoramento", "Suporte contínuo"],
+        "Após o lançamento, monitoramos suas ferramentas e infraestrutura, oferecendo suporte contínuo para garantir o máximo desempenho e sucesso das suas estratégias de afiliado.",
+      details: ["Monitoramento de performance", "Suporte técnico especializado", "Otimização contínua"],
     },
   ];
 
@@ -56,10 +56,10 @@ export default function ProcessSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              Nosso Processo
+              Nosso Processo para o Sucesso do Afiliado
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-700 dark:text-slate-400">
-              Transparência e eficiência em cada etapa do desenvolvimento
+              Transparência e eficiência em cada etapa da construção da sua estrutura de marketing de afiliados.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>
