@@ -7,41 +7,41 @@ import Link from "next/link";
 export default function PortfolioSection() {
   const projects = [
     {
-      title: "Plataforma E-commerce B2B/B2C",
-      category: "E-commerce",
+      title: "Plataforma de Lançamento de Produtos Digitais",
+      category: "Marketing de Afiliados",
       description:
-        "Sistema completo de vendas atacadistas e Varejistas com integração de estoque, pagamentos e dashboard admin catálogo dinâmico, gestão de pedidos em lote e integração com ERP.",
+        "Desenvolvimento de uma plataforma robusta para lançamento e gestão de produtos digitais, com funcionalidades para afiliados, controle de comissões, e integração com sistemas de pagamento e e-mail marketing.",
       image: "/api/placeholder/600/400",
-      tags: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
+      tags: ["Next.js", "TypeScript", "Stripe", "Hotmart"],
       results: [
-        { metric: "+150%", label: "Aumento em vendas" },
-        { metric: "40%", label: "Redução de custos" },
+        { metric: "+200%", label: "Aumento de vendas" },
+        { metric: "+50%", label: "Novos afiliados" },
       ],
       color: "from-purple-500 to-pink-600",
     },
     {
-      title: "Sistema ERP/PDV para Lojistas",
-      category: "Sistema ERP",
+      title: "Ferramenta de Rastreamento e Análise de Campanhas",
+      category: "Marketing de Afiliados",
       description:
-        "Solução completa de ponto de venda com controle de estoque, emissão de notas fiscais e relatórios gerenciais.",
+        "Desenvolvimento de uma ferramenta customizada para rastreamento de links de afiliados, análise de performance de campanhas e geração de relatórios detalhados para otimização de resultados.",
       image: "/api/placeholder/600/400",
-      tags: ["React", "Node.js", "MongoDB", "MySQL"],
+      tags: ["React", "Node.js", "MongoDB", "Analytics"],
       results: [
-        { metric: "99.9%", label: "Uptime" },
-        { metric: "3x", label: "Mais rápido" },
+        { metric: "+30%", label: "Otimização de ROI" },
+        { metric: "2x", label: "Mais leads" },
       ],
       color: "from-cyan-500 to-blue-600",
     },
     {
-      title: "Landing Page de Alta Conversão",
-      category: "Landing Page",
+      title: "Funil de Vendas Otimizado para Afiliados",
+      category: "Marketing de Afiliados",
       description:
-        "Página otimizada para captação de leads com A/B testing, analytics avançado e integração com CRM.",
+        "Criação de um funil de vendas completo, com landing pages de alta conversão, páginas de obrigado e e-mails de nutrição, todos otimizados para maximizar a conversão de visitantes em compradores de produtos de afiliados.",
       image: "/api/placeholder/600/400",
-      tags: ["Next.js", "Tailwind", "Analytics", "Vercel"],
+      tags: ["Next.js", "Tailwind", "Analytics", "Automação"],
       results: [
-        { metric: "85%", label: "Taxa de conversão" },
-        { metric: "2.5s", label: "Tempo de carregamento" },
+        { metric: "+85%", label: "Taxa de conversão" },
+        { metric: "-30%", label: "Custo por Lead" },
       ],
       color: "from-orange-500 to-red-600",
     },
@@ -67,11 +67,10 @@ export default function PortfolioSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl dark:text-slate-100">
-              Projetos de Sucesso
+              Cases de Sucesso para Afiliados
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-700 dark:text-slate-400">
-              Nossa experiência se traduz em resultados concretos. Explore
-              alguns dos projetos que desenvolvemos.
+              Nossa experiência se traduz em resultados concretos para o mercado de afiliados. Explore alguns dos projetos e soluções que desenvolvemos para impulsionar negócios como o seu.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>

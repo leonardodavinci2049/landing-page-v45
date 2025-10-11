@@ -48,11 +48,10 @@ export default function ContactSection() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-              Vamos Construir Algo Incrível Juntos!
+              Pronto para Impulsionar Seu Negócio de Afiliados?
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-slate-300">
-              Pronto para levar seu negócio ao próximo nível? Preencha o
-              formulário abaixo ou entre em contato diretamente.
+              Pronto para levar seu negócio de marketing de afiliados ao próximo nível? Preencha o formulário abaixo ou entre em contato diretamente para conversarmos sobre suas necessidades de como podemos te ajudar.
             </p>
             <div className="mx-auto mt-6 h-1 w-24 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
           </div>
