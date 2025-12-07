@@ -15,7 +15,9 @@ export default function ModeToggle() {
 
   // Only show the theme toggle after mounting to avoid hydration mismatch
   useEffect(() => {
-    setMounted(true);
+    // Use setTimeout to defer the state update to the next tick
+    const timer = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(timer);
   }, []);
 
   if (!mounted) {
