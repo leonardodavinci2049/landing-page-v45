@@ -14,7 +14,6 @@ import {
   Workflow,
   Server,
   ArrowRight,
-  Wrench,
   Bot,
   Zap,
 } from "lucide-react";
