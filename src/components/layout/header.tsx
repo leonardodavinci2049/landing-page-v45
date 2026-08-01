@@ -118,7 +118,7 @@ export default function Header() {
           {/* Logo */}
           <a href="#" className="group flex items-center gap-3">
             <Image
-              src="/logo-white.svg"
+              src="logo-header.png"
               alt={`${companyInfo.name} Logo`}
               width={40}
               height={40}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refinar plano de ação"
+  short_description: "Refine planos de ação antes da execução"
+  default_prompt: "Use $refine-action-plan para refinar este plano de ação em Português do Brasil e exigir um questionário prévio salvo."

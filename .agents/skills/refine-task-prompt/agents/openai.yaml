@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refinar prompt de tarefa"
+  short_description: "Refine prompts e perguntas em português"
+  default_prompt: "Use $refine-task-prompt para refinar esta tarefa em Português do Brasil e exigir um questionário prévio salvo."
