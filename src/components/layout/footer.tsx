@@ -43,13 +43,11 @@ export default function Footer() {
               <Image
                 src="/logo-header.png"
                 alt={`${companyInfo.name} Logo`}
-                width={40}
-                height={40}
-                className="h-10 w-10 transition-transform group-hover:scale-105"
+                width={200}
+                height={70}
+                style={{ height: "auto" }}
+                className="w-44 transition-transform group-hover:scale-105 sm:w-48"
               />
-              <span className="text-2xl font-bold text-white transition-colors group-hover:text-cyan-400">
-                {companyInfo.name.toUpperCase()}
-              </span>
             </a>
             <p className="mb-6 max-w-md leading-relaxed text-slate-400">
               <strong className="text-white">{companyInfo.name}</strong> -{" "}
@@ -138,8 +136,8 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             {/* Copyright */}
             <p className="text-sm text-slate-500">
-              © {currentYear} {companyInfo.name} - {companyInfo.title}. Todos
-              os direitos reservados.
+              © {currentYear} {companyInfo.name} - {companyInfo.title}. Todos os
+              direitos reservados.
             </p>
 
             {/* Social Links */}

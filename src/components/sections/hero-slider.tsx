@@ -181,7 +181,7 @@ export default function HeroSlider() {
             const Icon = slide.icon;
             return (
               <div key={index} className="min-w-0 flex-[0_0_100%]">
-                <div className="flex h-full items-center justify-center px-4 py-20">
+                <div className="flex h-full items-start justify-center px-4 pt-10 pb-20 md:items-center md:py-20">
                   <div className="mx-auto max-w-5xl text-center">
                     {/* Badge */}
                     <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-800/50 px-4 py-2 backdrop-blur-sm">

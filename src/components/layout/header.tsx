@@ -116,17 +116,16 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <a href="#" className="group flex items-center gap-3">
+          <a href="#" className="group flex items-center">
             <Image
-              src="logo-header.png"
+              src="/logo-header.png"
               alt={`${companyInfo.name} Logo`}
-              width={40}
-              height={40}
-              className="h-10 w-10 transition-transform group-hover:scale-105"
+              width={200}
+              height={70}
+              priority
+              style={{ height: "auto" }}
+              className="w-44 transition-transform group-hover:scale-105 sm:w-48"
             />
-            <span className="text-3xl font-bold text-white transition-colors group-hover:text-cyan-400">
-              {companyInfo.name.toUpperCase()}
-            </span>
           </a>
 
           {/* Desktop Navigation */}
